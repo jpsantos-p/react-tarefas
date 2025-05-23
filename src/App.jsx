@@ -1,12 +1,13 @@
 import Home from "./pages/home";
+import Rotas from "./routes/Rotas";
 
 const App = () => {
 
-  return ( 
-    <Home></Home>
-  
-  
-   );
+  return (
+    <>
+      <Rotas />
+    </>
+  );
 }
- 
+
 export default App;

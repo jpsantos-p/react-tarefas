@@ -13,8 +13,10 @@ const Home = () => {
                 <Tarefa />
                 <Tarefa />
             </div>
+            <div className="fixed bottom-8 right-8" >
+                <button className="leading-[46px] bg-slate-500 text-white px-4 rounded font-semibold">Nova Tarefa</button>
+            </div>
         </div>
-
     );
 }
 
